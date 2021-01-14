@@ -11,9 +11,9 @@ const ListItem = (props) => {
     <li className={getListClasses(props.index)}>
       <button
         className="mr-3 btn btn-sm btn-danger"
-        onClick={props.handleDelete}
+        onClick={props.handle}
       >
-        X
+        previous
       </button>
       <span>{props.chick.race}</span>
     </li>
